@@ -38,11 +38,11 @@ public class MainGUI extends JPanel {
 	private static final int TRAN_INIT = 70;    //initial frames per second
 	
 	
-	private ImageIcon greenKeep = createImageIcon("./Green_Keep.png");
-	private ImageIcon greenSupply = createImageIcon("./Green_Supply.JPG");
-	private ImageIcon redGarrison = createImageIcon("./Red_Garrison.jpg");
-	private ImageIcon redKeep = createImageIcon("./Red_Keep.png");
-	private ImageIcon redSupply = createImageIcon("./Red_Supply.png");
+	private ImageIcon greenKeep = createImageIcon("./Icons/Green/Keep.png");
+	private ImageIcon greenSupply = createImageIcon("./Icons/Green/Camp.png");
+	private ImageIcon redGarrison = createImageIcon("./Icons/Red/Castle.png");
+	private ImageIcon redKeep = createImageIcon("./Icons/Red/Keep.png");
+	private ImageIcon redSupply = createImageIcon("./Icons/Red/Camp.png");
 	
 	
 	Node node1 = new Node(greenSupply, "TitanPaw Supply Camp", "Green");
