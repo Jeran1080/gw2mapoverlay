@@ -1,3 +1,5 @@
+package AXi;
+
 public class Handler {
 
 	public void start(){
@@ -36,7 +38,6 @@ public class Handler {
 	 */
 	public void launch(){
 		MainGUI gui = new MainGUI();
-		//GUI2 gui = new GUI2();
 		gui.display();
 	}
 	

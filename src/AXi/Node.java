@@ -1,12 +1,16 @@
+package AXi;
+
 import java.awt.Image;
+
+import javax.swing.ImageIcon;
 
 public class Node {
 	
-	Image image; 
+	ImageIcon image; 
 	String title; 
 	String info;
 
-	public Node(Image _image, String _title, String _info){
+	public Node(ImageIcon _image, String _title, String _info){
 		image = _image;
 		title = _title;
 		info = _info;
